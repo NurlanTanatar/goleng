@@ -1,5 +1,9 @@
 package main
 
 func main() {
-	main_factorial()
+	// var a = "hello"[0]
+	// var b = `world`[0]
+	// fmt.Printf("type %T\n", a)
+	// fmt.Printf("type %T\n", b)
+
 }

@@ -20,4 +20,8 @@ func Mapping() {
 		fmt.Println(key, val)
 	}
 
+	for key := range users {
+		fmt.Println(key)
+	}
+
 }

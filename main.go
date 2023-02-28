@@ -15,6 +15,7 @@ import (
 func main() {
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Buffer(make([]byte, 1000000), 1000000)
+	SerilizingJSON()
 
 	scanner.Scan()
 	s := scanner.Text()
